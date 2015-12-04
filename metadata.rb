@@ -1,0 +1,13 @@
+name 'omero'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures omero'
+long_description 'Installs/Configures omero'
+version '0.1.0'
+
+depends 'java'
+depends 'python'
+depends 'ark'
+depends 'postgresql'
+depends 'limits'

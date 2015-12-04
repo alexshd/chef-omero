@@ -1,0 +1,17 @@
+export ZSH=$HOME/.oh-my-zsh
+
+ZSH_THEME="ys"
+
+plugins=(git lein tmux \
+          rvm common-aliases cp \
+          extract gem history history-substring-search \
+          knife pip rake ruby vundle colorize \
+          tmuxinator bower npm docker)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+export TERM=screen-256color
+export LANG=en_US.UTF-8
+export EDITOR=vim
